@@ -1,0 +1,19 @@
+sdr:
+  frequency: 146500000  # Frequency in Hz (146.5 MHz default)
+  sample_rate: 250000   # Sample rate in Hz
+  gain: auto           # Gain setting (auto or 0-50 dB)
+  device_index: 0      # RTL-SDR device index
+
+decoder:
+  audio_sample_rate: 22050  # Audio sample rate for tone detection
+  detection_threshold: 0.1   # Threshold for tone detection (0-1)
+  tone_tolerance: 20        # Frequency tolerance in Hz
+
+logging:
+  log_dir: logs             # Directory for log files
+  console_level: INFO       # Console logging level
+  file_level: DEBUG         # File logging level
+
+monitoring:
+  buffer_size: 262144       # Number of samples per buffer (256k)
+  display_interval: 10      # Statistics display interval in seconds
