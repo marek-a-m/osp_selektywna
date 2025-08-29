@@ -19,7 +19,7 @@ python3 -m venv venv
 
 # Activate and install remaining packages
 source venv/bin/activate
-pip install pyrtlsdr
+pip install pyrtlsdr pyyaml
 
 echo "Testing RTL-SDR..."
 rtl_test -t
