@@ -1,5 +1,5 @@
 sdr:
-  frequency: 146500000  # Frequency in Hz (146.5 MHz default)
+  frequency: 148725000  # Frequency in Hz (148.725 MHz)
   sample_rate: 250000   # Sample rate in Hz
   gain: auto           # Gain setting (auto or 0-50 dB)
   device_index: 0      # RTL-SDR device index
