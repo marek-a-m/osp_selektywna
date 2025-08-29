@@ -17,9 +17,9 @@ sudo apt-get install -y python3-numpy python3-scipy python3-yaml
 echo "Creating virtual environment..."
 python3 -m venv venv
 
-# Activate and install remaining packages
+# Activate and install all required packages
 source venv/bin/activate
-pip install pyrtlsdr pyyaml
+pip install pyrtlsdr pyyaml numpy scipy
 
 echo "Testing RTL-SDR..."
 rtl_test -t
