@@ -22,7 +22,7 @@ source venv/bin/activate
 pip install pyrtlsdr
 
 echo "Testing RTL-SDR..."
-rtl_test -t -s 2
+rtl_test -t
 
 echo "Setup complete!"
 echo ""
